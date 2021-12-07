@@ -5,7 +5,18 @@
 
 This repo contains supplementary materials for the paper "Source Attribution of Online News Images by Compression Analysis", M. Albright, N. Menon, K. Roschke, and A. Basharat, IEEE WIFS 2021.
 
-The folder [dataset](dataset) contains the data used to perform the experiments in the paper, in the file called [data.csv](dataset/data.csv).  
+### About
+In this work, we study how online news websites compress digital images in 
+their articles.  We find that different sites often compress their images in
+distinctive ways, which enable source attribution via analysis of image compression
+settings. Further, we develop efficient classifiers that use image 
+compression settings as features to perform news source verification and
+identification, with high accuracy.  We also performed a survey of online news rooms and found that the majority of respondents report standardized photo publishing processes within their organization.
+
+### Contents
+
+The folder [dataset](dataset) contains the data used to perform the experiments in the paper, in the file called [data.csv](dataset/data.csv).  This file contains
+compression settings, URLs, and other metadata from over 64k digital images scraped from over 34k online articles from 30 news sources.
 
 The code used to generate experimental results is in the folder [image_compression_attribution/common/publications/2021-summer-attrib](image_compression_attribution/common/publications/2021-summer-attrib).  Note that the experiment notebooks make use of re-usable modules from the folder [image_compression_attribution/common/code](image_compression_attribution/common/code).
 
@@ -40,6 +51,17 @@ make shell
 ## License
 
 Permissive [BSD License](LICENSE).
+
+## Citation
+```
+@inproceedings{albright2021attribution,
+  title={Source Attribution of Online News Images by Compression Analysis},
+  author={Michael Albright and Nitesh Menon and Kristy Roschke and Arslan Basharat},
+  booktitle={2021 IEEE International Workshop on Information Forensics and Security (WIFS)},
+  year={2021},
+  organization={IEEE}
+}
+```
 
 ## Acknowledgements: 
 This research was developed with funding from the Defense Advanced Research Projects 
