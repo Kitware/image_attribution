@@ -5,8 +5,8 @@
 
 This repo contains supplementary materials for the paper "Source Attribution of Online News Images by Compression Analysis", M. Albright, N. Menon, K. Roschke, and A. Basharat, IEEE WIFS 2021.  
 
-IEEE link: [https://ieeexplore.ieee.org/document/9648385](https://ieeexplore.ieee.org/document/9648385)  
-DOI: 10.1109/WIFS53200.2021.9648385
+**IEEE link**: [https://ieeexplore.ieee.org/document/9648385](https://ieeexplore.ieee.org/document/9648385)  
+**DOI**: 10.1109/WIFS53200.2021.9648385
 
 ### About
 In this work, we study how online news websites compress digital images in 
