@@ -23,7 +23,7 @@ The code used to generate experimental results is in the folder [image_compressi
 The folder [survey](survey) contains a detailed writeup (by Dr. Kristy Roschke) documenting the results of a photojournalism workflow survey.  The results from that survey were summarized in the published paper.
 
 
-For further information please contact Dr. Michael Albright (michael.albright@kitware.com).
+For further information please contact Dr. Arslan Basharat (arslan.basharat@kitware.com).
 
 ## Quickstart
 
